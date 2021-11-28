@@ -1,0 +1,40 @@
+.section {
+  padding: 40px;
+  h2 {
+    white-space: nowrap;
+    font-family: AmericaXIX;
+    color: var(--brand-primary);
+  }
+}
+
+.header-line {
+  border: none;
+  height: 1px;
+  margin-right: 1em;
+  margin-left: 1em;
+  background-color: var(--brand-primary);
+  color: var(--brand-primary);
+  width: 10em;
+}
+
+.white-block {
+  background-color: var(--font-primary);
+}
+
+.content-white {
+  color: black;
+}
+
+.content-black {
+  color: var(--font-primary);
+}
+
+@media screen and (max-width: 992px) {
+  .header-line {
+    width: 100%;
+  }
+
+  .section-custom {
+    height: auto;
+  }
+}

@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  background-color: var(--brand-secondary);
+  margin-top: var(--navbar-height);
+
+  a {
+    color: var(--link-hover);
+    :hover {
+      color: var(--link-hover);
+    }
+  }
+
+  h1 {
+    font-size: 48px;
+    @media (max-width: 1023px) {
+      font-size: 36px;
+    }
+    @media (max-width: 767px) {
+      font-size: 24px;
+    }
+  }
+  h2 {
+    font-size: 36px;
+    @media (max-width: 1023px) {
+      font-size: 24px;
+    }
+    @media (max-width: 767px) {
+      font-size: 16px;
+    }
+  }
+  h3 {
+    color: var(--brand-primary);
+    font-size: 30px;
+    @media (max-width: 1023px) {
+      font-size: 26px;
+    }
+    @media (max-width: 767px) {
+      font-size: 20px;
+    }
+  }
+  h5 {
+    font-size: 20px;
+    @media (max-width: 1023px) {
+      font-size: 16px;
+    }
+    @media (max-width: 767px) {
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 767px) {
+    font-size: 12px;
+  }
+}
+
+.our-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contacts {
+  span {
+    color: gray;
+  }
+}
+
+.map {
+  width: 100%;
+  height: 20em;
+  @media (max-width: 600px) {
+    height: 15em;
+  }
+}
+
+.footer {
+  background-color: #1a1a1a;
+  height: auto;
+  color: var(--font-primary);
+}

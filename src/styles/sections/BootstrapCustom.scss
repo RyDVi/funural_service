@@ -1,0 +1,46 @@
+.navbar {
+  background-color: var(--brand-secondary);
+  box-shadow: 0px 0px 11px 0px black;
+  .navbar-nav {
+    .nav-link {
+      color: var(--bs-gray-100);
+      &.active {
+        color: var(--link-hover);
+      }
+      &:hover {
+        color: var(--link-hover);
+      }
+    }
+  }
+}
+.navbar-brand {
+  img {
+    height: 48px;
+    width: 48px;
+    @media (max-width: 767px) {
+      height: 24px;
+      width: 24px;
+    }
+  }
+}
+
+.nav-tabs {
+  justify-content: center;
+  border: none;
+  .nav-link {
+    border: none;
+    color: var(--font-primary);
+    border-radius: 4px;
+    &.active {
+      background-color: var(--brand-primary);
+      color: var(--font-primary);
+    }
+  }
+}
+
+.carousel-item{
+  img{
+    max-height: 80vh;
+    object-fit: contain;
+  }
+}

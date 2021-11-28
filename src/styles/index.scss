@@ -1,0 +1,24 @@
+@import "libraries/bootstrap.min.css";
+@import "libraries/fonts/fonts.css";
+@import "./helpers.scss";
+@import "./vars.scss";
+@import "./scrollbar.scss";
+@import "./sections/App.scss";
+@import "./sections/BootstrapCustom.scss";
+@import "./sections/MainHeader.scss";
+@import "./sections/Navbar.scss";
+@import "./sections/Product.scss";
+@import "./sections/Section.scss";
+@import "./sections/ServiceCard.scss";
+
+body {
+  margin: 0;
+  font-family: LatoRegular;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

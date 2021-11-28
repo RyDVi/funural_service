@@ -1,0 +1,46 @@
+#mainHeader {
+  width: 100%;
+  position: relative;
+  color: var(--bs-gray-100);
+  .mainheader-img {
+    background-size: cover;
+    width: 100%;
+    max-height: calc(100vh - var(--navbar-height));
+    z-index: 1;
+    filter: brightness(50%);
+  }
+  header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .header-content {
+      width: 50%;
+      padding: 16px;
+      h1 {
+        font-family: AmericaXIX;
+      }
+    }
+  }
+  .arrow {
+    position: absolute;
+    left:0;
+    right: 0;
+    bottom: 0;
+    svg {
+      width: 100px;
+      height: 100px;
+      @media (max-width: 992px) {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+}
+
+.we_help {
+  font-family: AmericaXIX;
+}

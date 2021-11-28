@@ -1,0 +1,12 @@
+body {
+  /* Colors */
+  --brand-primary: #ad957b;
+  --brand-secondary: #2c2b26;
+  --font-title: var(--brand-primary);
+  --font-primary: lightgray;
+  --link-hover: var(--brand-primary);
+  --navbar-height: 74px;
+  @media (max-width: 767px) {
+    --navbar-height: 56px;
+  }
+}

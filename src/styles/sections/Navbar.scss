@@ -1,0 +1,30 @@
+.additionalInfo {
+  display: flex;
+  margin-left: auto;
+  .info {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    img {
+      width: 1em;
+      height: 1em;
+      margin-right: 7px;
+    }
+    span {
+      color: var(--font-primary);
+      margin-right: 1em;
+    }
+  }
+}
+
+.nav-menu {
+  @media (max-width: 576px) {
+    font-size: small;
+  }
+}
+
+.fixed-top {
+  position: float;
+  top: 0;
+}
+
